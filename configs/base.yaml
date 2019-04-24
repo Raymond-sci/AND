@@ -1,0 +1,42 @@
+#############
+# base cfgs #
+#############
+
+# args for AND
+ANs_select_rate: 0.25
+ANs_size: 1
+max_round: 5
+
+# args for network
+network: ResNet18
+
+# args for training
+log_file: True
+log_tfb: True
+display_freq: 80
+workers_num: 4
+
+# args for transforms
+size: (32, 32)
+resize: 32
+scale: (0.2, 1.)
+ratio: (0.75, 1.333333)
+colorjitter: (0.4, 0.4, 0.4, 0.4)
+random_grayscale: 0.2
+random_horizontal_flip: True
+
+# args for lr policy
+base_lr: 0.03
+lr_policy: step
+lr_decay_offset: 80
+lr_decay_step: 40
+lr_decay_rate: 0.1
+
+# args for optimizer
+optimizer: sgd
+weight_decay: 5e-4
+momentum: 0.9
+nesterov: True
+
+# args for protocol
+protocol: knn
