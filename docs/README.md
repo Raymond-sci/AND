@@ -4,7 +4,8 @@
 
 Pytorch implementation of [Unsupervised Deep Learning by Neighbourhood Discovery](). 
 
-![pipeline](./assets/training-pipeline.jpg)
+<img src="assets/training-pipeline.jpg" width="800">
+<!--![pipeline](./assets/training-pipeline.jpg)-->
 
 ## Highlight
 + We propose the idea of exploiting local neighbourhoods for unsupervised deep learning. This strategy preserves the capability of clustering for class boundary inference whilst minimising the negative impact of class inconsistency typically encountered in clusters.
@@ -14,9 +15,11 @@ Pytorch implementation of [Unsupervised Deep Learning by Neighbourhood Discovery
 ## Main results
 The proposed AND model was evaluated on four object image classification datasets including CIFAR 10/100, SVHN and ImageNet12. Results are shown at the following tables:
 
-![small-scale](./assets/small-scale.jpg)
+<img src="assets/small-scale.jpg" width="350" />
+<!--![small-scale](./assets/small-scale.jpg)-->
 
-![large-scale](./assets/large-scale.jpg)
+<img src="assets/large-scale.jpg" width="350" />
+<!--![large-scale](./assets/large-scale.jpg)-->
 
 ## Reproduction
 
