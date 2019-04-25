@@ -15,10 +15,10 @@ Pytorch implementation of [Unsupervised Deep Learning by Neighbourhood Discovery
 ## Main results
 The proposed AND model was evaluated on four object image classification datasets including CIFAR 10/100, SVHN and ImageNet12. Results are shown at the following tables:
 
-<img src="assets/small-scale.jpg" width="350" />
+<img src="assets/small-scale.jpg" width="400" />
 <!--![small-scale](./assets/small-scale.jpg)-->
 
-<img src="assets/large-scale.jpg" width="350" />
+<img src="assets/large-scale.jpg" width="400" />
 <!--![large-scale](./assets/large-scale.jpg)-->
 
 ## Reproduction
