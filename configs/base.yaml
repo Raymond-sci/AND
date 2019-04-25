@@ -23,7 +23,7 @@ scale: (0.2, 1.)
 ratio: (0.75, 1.333333)
 colorjitter: (0.4, 0.4, 0.4, 0.4)
 random_grayscale: 0.2
-random_horizontal_flip: True
+# random_horizontal_flip: True
 
 # args for lr policy
 base_lr: 0.03
