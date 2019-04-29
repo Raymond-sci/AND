@@ -2,7 +2,7 @@
 
 *Accepted by 36<sup>th</sup> International Conference on Machine Learning (ICML 2019)*.
 
-Pytorch implementation of [Unsupervised Deep Learning by Neighbourhood Discovery](). 
+Pytorch implementation of [Unsupervised Deep Learning by Neighbourhood Discovery](https://arxiv.org/abs/1904.11567). 
 
 <img src="assets/training-pipeline.jpg" width="800">
 <!--![pipeline](./assets/training-pipeline.jpg)-->
