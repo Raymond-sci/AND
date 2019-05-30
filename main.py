@@ -245,7 +245,7 @@ def train(round, epoch, net, trainloader, optimizer, npc, criterion,
                                         len(trainloader), batch_time.sum)
         logger.info('Round: {round} Epoch: {epoch}/{tot_epochs} '
               'Progress: {elps_iters}/{tot_iters} ({elps_time}/{est_time}) '
-              'Data: {data_time.sum:.3f} LR: {learning_rate:.5f} '
+              'Data: {data_time.avg:.3f} LR: {learning_rate:.5f} '
               'Loss: {train_loss.val:.4f} ({train_loss.avg:.4f})'.format(
               round=round, epoch=epoch, tot_epochs=cfg.max_epoch,
               elps_iters=batch_idx, tot_iters=len(trainloader),
