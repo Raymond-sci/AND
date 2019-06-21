@@ -37,7 +37,9 @@ Python 2.7 and Pytorch 1.0 are required. Please refer to `/path/to/AND/requireme
 Every time the `main.py` is run, a new session will be started with the name of current timestamp and all the related files will be stored in folder `sessions/timestamp/` including checkpoints, logs, etc.
 
 ### Pre-trained model
-Coming soon...
+To play with the pre-trained model, please go to [ResNet18](https://drive.google.com/file/d/1tMopB0iLPaJzw81tqZuXbK6YYAQRLXA-/view?usp=sharing) / [AlexNet](https://drive.google.com/file/d/1SeLi34LxuThcLulBaWViwy3kLYQQWX0l/view?usp=sharing). A few things need to be noticed:
++ The model is saved in **pytorch** format
++ It expects RGB images that their pixel values are normalised with the following mean RGB values `mean=[0.485, 0.456, 0.406]` and std RGB values `std=[0.229, 0.224, 0.225]`. Prior to normalisation the range of the image values must be `[0.0, 1.0]`.
 
 ## License
 This project is licensed under the MIT License. You may find out more [here](./LICENSE).
